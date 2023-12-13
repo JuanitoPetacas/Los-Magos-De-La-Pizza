@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/alertifyjs/css/alertify.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 cabecera">
+                <img src="/imagenes/losMagosLogo.png" alt="" srcset="" class="img-fluid">
+                <h1>LOS MAGOS DE LA PIZZA</h1>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 links">
+                <nav class="navbar navbar-expand-lg  custom-navbar">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          
+                            <li class="nav-item">
+                                <a class="nav-link " href="index.html">
+                                  Home
+                                </a>
+                            </li>
+                           
+                          
+                          <li class="nav-item">
+                            <a class="nav-link " href="#seccionPizza">
+                              Pizza 
+                            </a>
+                           
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#seccionPostre">
+                              Postres 
+                            </a>
+                           
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#seccionRefresco">
+                               Refrescos 
+                            </a>
+                           
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="agregados.html">
+                              Agregados 
+                              <img src="/imagenes/cart-regular-24.png" alt="" class="img-fluid">
+                            </a>
+                            
+                          </li>
+                          
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" aria-label="Search">
+                          <button class="btn btn-warning" type="submit">Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row rowsito">
+            <h1 id="seccionPizza">PIZZAS</h1>
+                <div class="col-3 pizza">
+                    <div class="card" >
+                        <img id="imagen" src="/imagenes/hawaiana.jpeg" class="card-img-top imagen" alt="...">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Pizza Hawaiana</h5>
+                          <p class="card-text" id="descripcion">Es una pizza que contiene una base de salsa pomodoro, queso mozzarella fundido y como toppings jamón y piña</p>
+                          <p class="card-text" id="precio">30000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+               <div class="col-3 pizza">
+                <div class="card" >
+                    <img src="/imagenes/peperoni.jpeg" class="card-img-top imagen" alt="..." >
+                    <div class="card-body cardBody">
+                      <h5 class="card-title" id="nombre">Pizza Peperoni</h5>
+                      <p class="card-text" id="descripcion">Pan plano horneado, elaborado con harina de trigo, sal, agua y levadura, con salsa de tomate y queso</p>
+                      <p class="card-text" id="precio">27000</p>
+                      <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                    </div>
+                  </div>
+               </div>
+                 
+               <div class="col-3 pizza">
+                <div class="card" >
+                    <img src="/imagenes/americana.jpeg" class="card-img-top" alt="..." id="imagen">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title" id="nombre">Pizza Americana</h5>
+                      <p class="card-text" id="descripcion">Pepperoni, carne molida, tomate y doble queso.</p>
+                     <br>
+                      <p class="card-text" id="precio">38000</p>
+                      <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                    </div>
+                  </div>
+               </div>
+                 <div class="col-3 pizza">
+                    <div class="card" >
+                        <img src="/imagenes/napolitana.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body ">
+                          <h5 class="card-title" id="nombre">Pizza Napolitana</h5>
+                          <p class="card-text" id="descripcion">Cuenta con una masa de una textura más «gomosa» o «esponjosa»</p>
+                         <br>
+                          <p class="card-text" id="precio">35000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                 </div>
+                 
+                 <div class="col-3 pizza">
+                    <div class="card" >
+                        <img src="/imagenes/estofada.jpeg" class="card-img-top" alt="..." id="imagen" >
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Pizza Estofada</h5>
+                          <p class="card-text" id="descripcion"> es una pizza encima de otra pizza, tiene dos capas de masa, la de la base y la del medio y en medio de estas encuentras queso.</p>
+                          
+                          <p class="card-text" id="precio">25000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                 </div>
+                
+            </div>
+
+            <div class="row rowRefresco">
+                <h1 id="seccionRefresco">Refrescos</h1>
+                <div class="col-3 refresco">
+                    <div class="card" >
+                        <img src="/imagenes/cocacola.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Coca Cola</h5>
+                          <p class="card-text" id="descripcion">Coca cola de 2L refrescante como acompañante</p>
+                          <p class="card-text" id="precio">5000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 refresco">
+                    <div class="card" >
+                        <img src="/imagenes/cuatro.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Gaseosa Cuatro</h5>
+                          <p class="card-text" id="descripcion">Cuatro de 2L refrescante como acompañante</p>
+                          <p class="card-text" id="precio">5500</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 refresco">
+                    <div class="card" >
+                        <img src="/imagenes/manzana.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Gaseosa Manzana 2L</h5>
+                          <p class="card-text" id="descripcion">Manzana de 2L refrescante como acompañante</p>
+                          <p class="card-text" id="precio">4500</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 refresco">
+                    <div class="card" >
+                        <img src="/imagenes/hit.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Hit Natural 1L</h5>
+                          <p class="card-text" id="descripcion">Hit Natura de 1L refrescante como acompañante</p>
+                          <p class="card-text" id="precio">1500</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row rowPostres">
+                <h1 id="seccionPostre">Postres</h1>
+                <div class="col-3 postre">
+                    <div class="card" >
+                        <img src="/imagenes/postre 3 leches.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Postre Tres Leches</h5>
+                          <p class="card-text" id="descripcion"> su preparación con tres tipos de leches: evaporada, crema y leche condensada.</p>
+                          <br>
+                          <br>
+                          <p class="card-text" id="precio">10000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 postre">
+                    <div class="card" >
+                        <img src="/imagenes/postre maracuya.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Postre de Maracuya</h5>
+                          <p class="card-text" id="descripcion"> se combina con ingredientes lácteos como leche condensada, crema de leche o yogur</p>
+                          <br>
+                          <br>
+                          <p class="card-text" id="precio">10000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 postre">
+                    <div class="card" >
+                        <img src="/imagenes/postre de chocolate.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Postre de chocolate</h5>
+                          <p class="card-text" id="descripcion">El postre de chocolate es una deliciosa preparación que utiliza el cacao como ingrediente principal para crear una variedad de dulces irresistibles.</p>
+                          <p class="card-text" id="precio">10000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 postre">
+                    <div class="card" >
+                        <img src="/imagenes/postre de milo.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Postre de Milo</h5>
+                          <p class="card-text" id="descripcion">El postre de Milo es una opción deliciosa y fácil de preparar que utiliza este popular polvo de malta y cacao llamado Milo como ingrediente principa</p>
+                          <p class="card-text" id="precio">10000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 postre">
+                    <div class="card" >
+                        <img src="/imagenes/postre de oreo.jpeg" class="card-img-top" alt="..." id="imagen">
+                        <div class="card-body cardBody">
+                          <h5 class="card-title" id="nombre">Postre de oreo</h5>
+                          <p class="card-text" id="descripcion">Crema batida con crema de mascarpone o queso crema y trozos de galleta Oreo triturada. </p>
+                          <p class="card-text" id="precio">10000</p>
+                          <button  type="button" class="btn btn-primary" id="btnAgregar" onclick="agregarCarrito(this)">Agregar al Carrito</button>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 footer">
+                    <p>Todos los derechos reservados a Juan David Montoya</p>
+                </div>
+            </div>
+        
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/alertifyjs/alertify.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

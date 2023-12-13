@@ -1,0 +1,126 @@
+.cabecera{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imagenes/pizzaHeaderBackground.jpg") ;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    color: wheat;
+    font-family: fantasy;
+}
+.cabecera img{
+    margin-left: 2%;
+   width: 6%;
+}
+.cabecera h1{
+
+    margin-left: 3%;
+}
+.links a
+{
+    display: flex;
+    color: white;
+    font-size: medium;
+
+}
+.links{
+    background-color: rgb(255, 89, 28);
+    
+}
+
+.custom-navbar{
+    background-color: rgb(255, 89, 28);
+}
+.rowsito{
+      background: rgb(255,243,232);
+background: linear-gradient(0deg, rgba(255,243,232,0) 6%, rgba(255,225,191,0.41453077813156514) 25%, rgba(255,185,118,0.34450276692708337) 35%, rgba(255,172,37,0.21565122631083689) 44%, rgba(255,167,34,0.6246148117450105) 59%, rgba(255,142,54,0.5601890414368873) 77%);
+}
+.rowsito h1{
+    padding: 3%;
+    background: rgb(0,0,0);
+    background-image: linear-gradient(81deg, rgba(0,0,0,1) 23%, rgba(0,0,0,0) 100%), url("/imagenes/pizzaHeaderBackground.jpg");
+
+    margin-bottom: 4%;
+    color: wheat;
+    font-family: fantasy;
+}
+.pizza{
+    margin: 3%;
+}
+
+.card{
+  overflow-x: auto;
+  margin: 3%;
+width: 100%;
+height: 100%;
+
+   
+    -webkit-box-shadow: 5px 2px 22px -10px rgba(120,120,120,1);
+-moz-box-shadow: 5px 2px 22px -10px rgba(120,120,120,1);
+box-shadow: 5px 2px 22px -10px rgba(120,120,120,1);
+align-items: center;
+
+
+}
+.cardBody{
+    overflow: auto;
+    max-height: 300px;
+}
+.card button{
+    display: inline-block;
+    margin: auto;
+}
+.rowRefresco h1{
+    background: rgb(0,0,0);
+    background-image: linear-gradient(81deg, rgba(0,0,0,1) 23%, rgba(0,0,0,0) 100%), url("/imagenes/h1Refresco.jpeg");
+    padding: 3%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-bottom: 4%;
+    color: wheat;
+    font-family: fantasy;
+}
+.rowRefresco{
+    background: rgb(255,84,84);
+background: linear-gradient(180deg, rgba(255,84,84,1) 28%, rgba(255,154,154,1) 51%, rgba(255,239,239,1) 75%, rgba(255,255,255,1) 100%);
+}
+.refresco{
+    margin: 3%;
+}
+.rowPostres h1{
+    background: rgb(0,0,0);
+    background-image: linear-gradient(81deg, rgb(0, 0, 0) 23%, rgba(0,0,0,0) 100%), url("/imagenes/h1Postres.jpeg");
+    padding: 3%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-bottom: 4%;
+    color: wheat;
+    font-family: fantasy;
+}
+.rowPostres{
+    background: rgb(151,255,128);
+background: linear-gradient(180deg, rgba(151,255,128,1) 28%, rgba(174,255,154,1) 51%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+}
+.postre{
+    margin: 3%;
+    
+}
+.footer{
+    margin-top: 6%;
+    padding: 3%;
+    color: wheat;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 38%, rgba(255,120,0,1) 85%, rgba(251,208,175,1) 100%);
+}
+.agregados{
+    background: rgb(255,156,93);
+background: linear-gradient(180deg, rgba(255,156,93,1) 45%, rgba(255,200,151,1) 64%, rgba(255,255,255,1) 100%);
+justify-content: center;
+}
